@@ -1,0 +1,17 @@
+# model weights (downloaded automatically on first run)
+*.pt
+
+# generated videos
+output/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
