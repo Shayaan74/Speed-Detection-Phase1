@@ -6,7 +6,7 @@ from inference_sdk.webrtc import VideoFileSource, StreamConfig, VideoMetadata
 
 client = InferenceHTTPClient.init(
     api_url="http://localhost:9001",
-    api_key="5TdV9qLQQdiDsVHV6pmE"
+    api_key="ENTER_YOUR_API_KEY"
 )
 
 source = VideoFileSource("Enter/Video/Path.mp4", realtime_processing=False)  # Buffer and process all frames
