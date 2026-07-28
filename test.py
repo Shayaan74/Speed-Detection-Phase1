@@ -9,7 +9,7 @@ client = InferenceHTTPClient.init(
     api_key="5TdV9qLQQdiDsVHV6pmE"
 )
 
-source = VideoFileSource("Vehicle Detection - 3.mp4", realtime_processing=False)  # Buffer and process all frames
+source = VideoFileSource("Enter/Video/Path.mp4", realtime_processing=False)  # Buffer and process all frames
 
 VIDEO_OUTPUT = "output_image"
 DATA_OUTPUTS = ["tracked_vehicles","new_vehicles","already_seen_vehicles"]
